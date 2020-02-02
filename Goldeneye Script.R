@@ -3,7 +3,7 @@ library(readxl)
 library(DT)
 library(knitr)
 
-setwd("C:\\Users\\bcurry\\OneDrive - FREEDOM PAY, INC\\Online Desktop")
+## Save the file to your documents or update the working directory
 sample <- read_xlsx("Goldeneye - CHOP.xlsx")
 sample <- sample[1:3]
 
