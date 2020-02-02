@@ -3,7 +3,7 @@ library(readxl)
 library(DT)
 library(knitr)
 
-setwd("C:\\Users\\bcurry\\OneDrive - FREEDOM PAY, INC\\Online Desktop")
+## Save the file to your documents or update the working directory
 
 dog_time <- read_xlsx("Dog Eating - Chop.xlsx")
 
