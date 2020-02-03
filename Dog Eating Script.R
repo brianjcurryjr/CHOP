@@ -3,7 +3,7 @@ library(readxl)
 library(DT)
 library(knitr)
 
-## Save the file to your documents or update the working directory
+setwd("C:\\Users\\bcurry\\OneDrive - FREEDOM PAY, INC\\Online Desktop")
 
 dog_time <- read_xlsx("Dog Eating - Chop.xlsx")
 
@@ -48,7 +48,7 @@ dog_ranges <- dog_time[c(1, 5)]
 
 Centerline <- mean(dog_ranges$Range)
 
-dog_ranges$UCL <- Centerline*1.128
+dog_ranges$UCL <- Centerline*3.267
 dog_ranges$Centerline <- Centerline
 
 dog_ranges <- dog_ranges %>%
